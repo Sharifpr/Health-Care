@@ -1,12 +1,17 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './service.css'
+
 
 const Service = (props) => {
     const { id, title, img, decription } = props.service;
     return (
         <Card>
-            <Card.Img variant="top" src={img} style={{ height: "332px" }} />
+            <div className="">
+                <Card.Img variant="top" src={img} style={{ height: "332px" }} />
+            </div>
+
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>

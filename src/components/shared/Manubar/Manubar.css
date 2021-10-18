@@ -1,0 +1,15 @@
+.title{
+    color: #8e44ad !important;
+    font-weight: 600 !important;
+    margin-left: 10px !important;
+}
+
+.nav-bar{
+    font-size: 18px !important;
+    margin-right: 10px!important;
+}
+.nav-bar:hover{
+    font-weight: 500 !important;
+    border-bottom: 2px solid rgb(107, 62, 62) !important;
+  
+}

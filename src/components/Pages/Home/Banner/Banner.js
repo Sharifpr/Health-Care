@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import image01 from '../../../../images/background/better-technology.jpg'
 import image02 from '../../../../images/background/emergency-services.jpg'
 import image03 from '../../../../images/background/heart-specialist.jpg'
-
+import './banner.css'
 
 const Banner = () => {
     return (
@@ -15,9 +15,9 @@ const Banner = () => {
                         src={image01}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h1>First slide label</h1>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <Carousel.Caption className="banner-title">
+                        <h1>EMERGENCY SERVICES</h1>
+                        <p>If you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat. aliquam erat volutpat.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
@@ -26,9 +26,10 @@ const Banner = () => {
                         src={image02}
                         alt="Second slide"
                     />
-                    <Carousel.Caption>
-                        <h1>Second slide label</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className="banner-title">
+                        <h1>BETTER TECHNOLOGY</h1>
+                        <p>If you need a doctor for to consectetuer Lorem ipsum dolor, consectetur
+                            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -37,9 +38,10 @@ const Banner = () => {
                         src={image03}
                         alt="Third slide"
                     />
-                    <Carousel.Caption>
-                        <h1>Third slide label</h1>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <Carousel.Caption className="banner-title">
+                        <h1>HEART SPECIALIST</h1>
+                        <p>If you need a doctor for to consectetuer Lorem ipsum dolor, consectetur
+                            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

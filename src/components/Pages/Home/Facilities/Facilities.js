@@ -13,7 +13,7 @@ const Facilities = () => {
     return (
         <div id="Facilites">
             <div className="text-center my-5">
-                <h2>Our Facilites</h2>
+                <h2 className="title-us">Our Facilites</h2>
                 <h4>We Provide Best Services For Patient</h4>
             </div>
             <div className="facilities-container container">

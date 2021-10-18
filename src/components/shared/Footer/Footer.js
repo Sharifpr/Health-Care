@@ -12,10 +12,10 @@ const Footer = () => {
                 <div className="row ">
                     {/* coloumn-01 */}
                     <div className="col-md-3 col-sm-6">
-                        <h4><strong>IT Acadamy</strong></h4>
+                        <h4><strong>Health Care</strong></h4>
                         <h5>About Us</h5>
                         <ul className="list-unstyled">
-                            <li> IT course prepares students to be experts who perform development, maintenance, and administration of computer applications.</li>
+                            <li>Basic health services means those health services, and outpatient and preventive medical services.</li>
                         </ul>
                         <Stack className="soical-icon" direction="horizontal" gap={3}>
                             <a href="https://web.facebook.com/profile.php?id=100009968520679"><i className="fab fa-facebook-square"></i></a>
@@ -27,13 +27,13 @@ const Footer = () => {
                     {/* coloumn-02 */}
                     <div className="col-md-3 col-sm-6">
                         <h4>Services</h4>
-                        <ul className="list-unstyled">
-                            <li>Data Science</li>
-                            <li>Big Data Engineering</li>
-                            <li>Data Analyst</li>
-                            <li>Big Data Analysis</li>
-                            <li>Web development</li>
-                            <li>Software development</li>
+                        <ul className="list-unstyled fw-normal">
+                            <li>LABORATORY TEST</li>
+                            <li>CONSULTATION</li>
+                            <li>EMERGENCY</li>
+                            <li>TREATMENT</li>
+                            <li>MENTAL HEALTH CARE</li>
+                            <li>PHYSICAL AND OCCUPATIONAL THERAPY</li>
                         </ul>
                     </div>
                     {/* coloumn-03 */}

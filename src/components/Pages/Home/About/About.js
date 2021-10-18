@@ -8,10 +8,10 @@ const About = () => {
     return (
         <div className="container" id="About">
             <div className="text-center my-5">
-                <h1>About Us</h1>
+                <h1 className="title-us">About Us</h1>
                 <strong>Health is the most a precious treasure</strong>
             </div>
-            <div className="row">
+            <div className="row about-container">
                 <div className="col-lg-6">
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
@@ -35,7 +35,7 @@ const About = () => {
                     </Accordion>
                 </div>
                 <div className="col-lg-6 my-auto image-style">
-                    <img className="" src={asideImage} alt="" />
+                    <img className="" src={asideImage} style={{ height: "400px" }} alt="" />
                 </div>
 
             </div>

@@ -3,6 +3,8 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
+import logo from '../../../images/blue-logo.png';
+import './Manubar.css'
 
 const Manubar = () => {
     const { user, logOut } = useAuth();
@@ -10,17 +12,18 @@ const Manubar = () => {
         <div>
             <Navbar bg="light" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#Home">Health Care</Navbar.Brand>
+                    <img src={logo} style={{ width: "80px" }} alt="" />
+                    <Navbar.Brand href="#Home" ><span className="title fs-2">Health Care</span></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={HashLink} to="/Home#Home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="/Home#About">About</Nav.Link>
-                        <Nav.Link as={HashLink} to="/Home#Services">Services</Nav.Link>
-                        <Nav.Link as={HashLink} to="/Home#Facilites">Facilites</Nav.Link>
-                        <Nav.Link as={HashLink} to="/Home#Doctor">Doctor</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Home#Home">Home</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Home#About">About</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Home#Services">Services</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Home#Facilites">Facilites</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Home#Doctor">Doctor</Nav.Link>
                         {user?.email ?
                             <Button onClick={logOut} variant="primary">Log out</Button> :
-                            <Nav.Link as={Link} to="/Login">Log in </Nav.Link>
+                            <Nav.Link as={Link} className="nav-bar" to="/Login">Log in </Nav.Link>
 
                         }
                         <Navbar.Text>
