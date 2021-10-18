@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1254",
+        "title": "Dental Facility",
+        "img": "https://i.ibb.co/ZY6LQ56/01.png",
+        "description": "The dental clinic is a place where a dentist performs dental procedures and treatments on patients. Dental clinics can be found in hospitals, schools, government offices, and other health-related establishments. The clinic is usually a single room housing all dental equipment and tools."
+    },
+    {
+        "id": "2351",
+        "title": "Pharmacy",
+        "img": "https://i.ibb.co/RzrR4Qj/02.png",
+        "description": "Pharmacy is the science of preparing and dispensing medical drugs. The study of pharmacy involves chemistry and pharmaceutics, among other specialist topics. A pharmacist is a licensed healthcare professional who specialises in providing information about different medication and methods of treatment to patients."
+    },
+    {
+        "id": "4512",
+        "title": "Physiotherapy",
+        "img": "https://i.ibb.co/w6yJjvS/03.png",
+        "description": "Physiotherapy helps to restore movement and function when someone is affected by injury, illness or disability. It can also help to reduce your risk of injury or illness in the future. It takes a holistic approach that involves the patient directly in their own care."
+    },
+    {
+        "id": "8755",
+        "title": "Laboratory Room",
+        "img": "https://i.ibb.co/YWwMPP7/04.png",
+        "description": "Laboratory Facility means the use of a building for conducting scientific or medical research, experimentation or diagnostic work.Laboratories and preparation rooms which provide service to teachinglresearch and industrial labs have a very important role of storing a range of equipment and apparatus which are not in continuous use. They are also used for storage of extra quantities of chemicals and reagents."
+    },
+    {
+        "id": "7845",
+        "title": "Ambulance",
+        "img": "https://i.ibb.co/LtvJwMj/05.png",
+        "description": "An ambulance is a medically equipped vehicle which transports patients to treatment facilities, such as hospitals. Typically, out-of-hospital medical care is provided to the patient."
+    },
+    {
+        "id": "7848",
+        "title": "Radiology",
+        "img": "https://i.ibb.co/2Y2LdpB/06.png",
+        "description": "Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease. Radiology may be divided into two different areas, diagnostic radiology and interventional radiology. Doctors who specialize in radiology are called radiologists."
+    }
+]

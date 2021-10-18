@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "title": "LABORATORY TEST",
+        "img": "https://i.ibb.co/6Nbqjqp/service-01.jpg",
+        "decription": "A medical procedure that involves testing a sample of blood, urine, or other substance from the body. Laboratory tests can help determine a diagnosis, plan treatment, check to see if treatment is working, or monitor the disease over time."
+    },
+    {
+        "id": "02",
+        "title": "CONSULTATION",
+        "img": "https://i.ibb.co/M7cj8s3/service-02.jpg",
+        "decription": "Consultation is the act of seeking assistance from another physician(s) or health care professional(s) for diagnostic studies, therapeutic interventions, or other services that may benefit the patient."
+    },
+    {
+        "id": "03",
+        "title": "EMERGENCY",
+        "img": "https://i.ibb.co/k81bw1q/service-03.jpg",
+        "decription": "Emergency Care' means inpatient and outpatient hospital services necessary to prevent the death or serious impairment of the health of the recipient."
+    },
+    {
+        "id": "04",
+        "title": "TREATMENT",
+        "img": "https://i.ibb.co/jrt8mWm/service-04.jpg",
+        "decription": "Medical treatment means the management and care of a patient to combat disease or disorder. Medical treatment includes: All treatment not otherwise excluded (below). Using prescription medications, or use of a non-prescription drug at prescription strength."
+    },
+    {
+        "id": "05",
+        "title": "MENTAL HEALTH CARE",
+        "img": "https://i.ibb.co/TvTjFpS/nurse-with-faceshield-1.jpg",
+        "decription": "noun. services devoted to the treatment of mental illnesses and the improvement of mental health in people with mental disorders or problems. priorities such as cancer and mental health care. the cost of mental health care. modifier."
+    },
+    {
+        "id": "06",
+        "title": "PHYSICAL AND OCCUPATIONAL THERAPY",
+        "img": "https://i.ibb.co/dMx9HkW/Occupational-Therapy-732x549-thumbnail-732x549-1.jpg",
+        "decription": "Physical therapy (PT) and occupational therapy (OT) are types of rehabilitative care. While they have similar goals and treat many of the same conditions, they also differ. PT focuses on restoring or improving movement, strength, and range of motion. OT aims to improve the motor skills you need to perform daily tasks."
+    }
+]

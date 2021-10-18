@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0111",
+        "title": "Dental Facility",
+        "description": "Lorem ipsum dolor sit in faucibus ipsum. Cras euismod"
+    },
+    {
+        "id": "0112",
+        "title": "Pharmacy",
+        "description": "Lorem ipsum dolor sit in faucibus ipsum. Cras euismod"
+    },
+    {
+        "id": "0113",
+        "title": "Physiotherapy",
+        "description": "Lorem ipsum dolor sit in faucibus ipsum. Cras euismod"
+    },
+    {
+        "id": "0114",
+        "title": "Laboratory Room",
+        "description": "Lorem ipsum dolor sit in faucibus ipsum. Cras euismod"
+    },
+    {
+        "id": "0115",
+        "title": "Ambulance",
+        "description": "Lorem ipsum dolor sit in faucibus ipsum. Cras euismod"
+    },
+    {
+        "id": "0116",
+        "title": "Radiology",
+        "description": "Lorem ipsum dolor sit in faucibus ipsum. Cras euismod"
+    }
+]
