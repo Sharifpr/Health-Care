@@ -85,10 +85,10 @@ const Login = () => {
 
     return (
         <div className="row my-5 align-items-center  container">
-            <div className="col-7">
-                <img src={image} alt="" />
+            <div className="col-lg-7">
+                <img src={image} className="img-fluid" alt="" />
             </div>
-            <div className="col-5 shadow px-5 py-5 shadow" style={{ borderRadius: "15px" }}>
+            <div className="col-lg-5 shadow px-5 py-5 shadow" style={{ borderRadius: "15px" }}>
                 <div className="">
                     <form onSubmit={handleRegistration}>
                         <h3 className="text-danger text-center my-4">{isLogin ? 'SIGN IN' : 'SIGN UP'}</h3>

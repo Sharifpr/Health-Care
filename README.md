@@ -2,7 +2,7 @@
 
 ## About & Features
 
-* E-Ticket is a website of booking tickets online. The website is built with React, Firebase, React-Router and React-Bootstrap. And has been used Authentication of Firebase
+* Health care is a website of health services related website. The website is built with React, Firebase, React-Router and React-Bootstrap. And has been used Authentication of Firebase
 
 * If user click on the buy button, user will be taken to the login page for Sign up or Sign in to view the destination page. Then user must be Sign up and Login to view the destination page.
 
