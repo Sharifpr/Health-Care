@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, FormControl, InputGroup, Stack } from 'react-bootstrap';
+import GoogleMap from '../GoogleMap/GoogleMap';
 
 import './Footer.css';
 
@@ -26,15 +27,8 @@ const Footer = () => {
                     </div>
                     {/* coloumn-02 */}
                     <div className="col-md-3 col-sm-6">
-                        <h4>Services</h4>
-                        <ul className="list-unstyled fw-normal">
-                            <li>LABORATORY TEST</li>
-                            <li>CONSULTATION</li>
-                            <li>EMERGENCY</li>
-                            <li>TREATMENT</li>
-                            <li>MENTAL HEALTH CARE</li>
-                            <li>PHYSICAL AND OCCUPATIONAL THERAPY</li>
-                        </ul>
+                        <h4>Our Location</h4>
+                        <GoogleMap></GoogleMap>
                     </div>
                     {/* coloumn-03 */}
                     <div className="col-md-3 col-sm-6">

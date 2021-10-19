@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './service.css'
 
@@ -7,8 +7,8 @@ import './service.css'
 const Service = (props) => {
     const { id, title, img, decription } = props.service;
     return (
-        <Card>
-            <div className="">
+        <Card className="shadow rounded">
+            <div >
                 <Card.Img variant="top" src={img} style={{ height: "332px" }} />
             </div>
 
@@ -17,7 +17,7 @@ const Service = (props) => {
                 <Card.Text>
                     {decription.slice(0, 100)}
                 </Card.Text>
-                <Link to={`/ServiceDetails/${id}`}><Button variant="secondary">Details</Button></Link>
+                <Link to={`/ServiceDetails/${id}`}><button className="button-style">Details</button></Link>
             </Card.Body>
 
         </Card>

@@ -18,9 +18,10 @@ const Manubar = () => {
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} className="nav-bar" to="/Home#Home">Home</Nav.Link>
                         <Nav.Link as={HashLink} className="nav-bar" to="/Home#About">About</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Contact">Contact</Nav.Link>
                         <Nav.Link as={HashLink} className="nav-bar" to="/Home#Services">Services</Nav.Link>
                         <Nav.Link as={HashLink} className="nav-bar" to="/Home#Facilites">Facilites</Nav.Link>
-                        <Nav.Link as={HashLink} className="nav-bar" to="/Home#Doctor">Doctor</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-bar" to="/Doctor">Doctor</Nav.Link>
                         {user?.email ?
                             <Button onClick={logOut} variant="primary">Log out</Button> :
                             <Nav.Link as={Link} className="nav-bar" to="/Login">Log in </Nav.Link>

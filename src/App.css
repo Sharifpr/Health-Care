@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+
+body{
+  overflow-x: hidden;
+  
+}
+html{
+  overflow-x: hidden;
+}
+
 .title-us{
   color: #9b59b6!important;
 }

@@ -5,7 +5,7 @@ import './facilitiy.css'
 const Facility = (props) => {
     const { img, title, description } = props.facility;
     return (
-        <Card className="cart-style">
+        <Card className="cart-style shadow">
             <Card.Img className="image mx-auto my-4" src={img} />
             <Card.Body className="text-center">
                 <Card.Title>{title}</Card.Title>

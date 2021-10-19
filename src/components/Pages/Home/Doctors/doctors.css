@@ -1,6 +1,6 @@
-.service-container{
+.doctor-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 15px;
 }
 
@@ -13,24 +13,23 @@
     border-radius: 50px;
     transition: 0.5s;
     color: #3498db;
-    border: 2px solid #3498db;
+    border: 1px solid #8e44ad;
     text-decoration: none;
 }
 
 .button-style:hover {
-    background-color: #3498db;
+    background-color: #8e44ad;
     color: #fff;
 }
 
 
-@media only screen and (max-width:768px) {
-    .service-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-}
-@media only screen and (min-width:769px) and (max-width:1024px)  {
-    .service-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
 
+@media only screen and (max-width:768px) {
+    .doctor-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+
+    }
+    
+}

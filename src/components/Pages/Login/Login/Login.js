@@ -120,7 +120,7 @@ const Login = () => {
                             </div>
                         </div>
 
-                        <button type="submit" className="btn btn-secondary my-3">{isLogin ? 'SIGN IN' : 'SIGN UP'}</button>
+                        <button type="submit" className="btn btn-primary my-3">{isLogin ? 'SIGN IN' : 'SIGN UP'}</button>
 
                     </form>
                     <hr className="my-1" />
