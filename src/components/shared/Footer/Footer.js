@@ -36,7 +36,7 @@ const Footer = () => {
                         <ul className="list-unstyled">
                             <li>Phone: + 10255 6241 2532</li>
                             <li>Email: example@gmail.com</li>
-                            <li>Address: 120, State Road, Dhaka, Bangladesh.</li>
+                            <li>Address: 125, State Road, Dhaka, Bangladesh.</li>
 
                         </ul>
                     </div>
